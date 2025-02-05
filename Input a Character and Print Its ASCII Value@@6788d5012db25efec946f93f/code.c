@@ -4,7 +4,7 @@ int main()
     char character;
     scanf("%c", &character);
 
-    printf("%c\n", character);
-    printf("%d\n", character);
+    printf("ASCII value: %c\n", character);
+    printf("ASCII value: %d\n", character);
     return 0;
 }
