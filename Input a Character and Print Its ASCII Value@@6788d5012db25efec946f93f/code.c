@@ -6,5 +6,5 @@ int main()
 
     printf("ASCII value: %c\n", character);
     printf("ASCII value: %d\n", character);
-    return 0;
+    
 }
