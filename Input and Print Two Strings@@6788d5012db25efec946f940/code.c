@@ -5,6 +5,6 @@ int main()
     char b[100];
     scanf("%s %s", &a, &b);
     printf("You entered: %s",a);
-    printf("and");
+    printf(" and ");
     printf("%s", b);
 }
