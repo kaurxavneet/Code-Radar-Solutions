@@ -7,7 +7,7 @@ int main()
     while((a&1)==0 && a!=0)
     {
         count++;
-        a>>1;
+        a>>=1;
     }
     printf("%d", count);
 }
