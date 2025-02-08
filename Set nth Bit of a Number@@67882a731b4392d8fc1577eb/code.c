@@ -3,8 +3,7 @@ int main()
 {
     int a;
     int b;
-    int c;
     scanf("%d %d",&a,&b);
-    b|= (1<<a);
-    printf("%d",b);
+    a|= (1<<b);
+    printf("%d",a);
 }
