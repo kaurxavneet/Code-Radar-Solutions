@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    unsigned int a;
+    int a;
     int count=0;
-    scanf("%u", &a);
+    scanf("%d", &a);
     while((a&1)==0 && a!=0)
     {
         count++;
