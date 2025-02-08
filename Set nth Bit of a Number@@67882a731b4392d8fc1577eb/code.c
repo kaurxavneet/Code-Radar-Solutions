@@ -4,7 +4,7 @@ int main()
     int a;
     int b;
     int c;
-    scanf("%D %D",&a,&b);
+    scanf("%d %d",&a,&b);
     c=setNthBit(a,b);
     printf("%d",c);
 }
