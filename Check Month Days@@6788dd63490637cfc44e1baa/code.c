@@ -3,36 +3,19 @@ int main()
 {
     int a;
     scanf("%d",&a);
-    switch(a)
+    if(a==1 || a==3|| a==5|| a==7|| a==8|| a==10|| a==12)
     {
-        case1:
         printf("31");
-        case3:
-        printf("31");
-        case5:
-        printf("31");
-        case7:
-        printf("31");
-        case8:
-        printf("31");
-        case10:
-        printf("31");
-        case12:
-        printf("31");
-        break;
-        case4:
+    }
+    else if(a==4|| a==6|| a==9|| a==11)
+    {
         printf("30");
-        case6:
-        printf("30");
-        case9:
-        printf("30");
-        case11:
-        printf("30");
-        break;
-        case2:
-        printf("28");
-        break;
-       
-
+    }
+    else
+    {
+        printf("Invalid month");
     }
 }
+   
+   
+   
