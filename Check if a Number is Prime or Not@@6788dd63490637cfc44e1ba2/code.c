@@ -3,23 +3,22 @@ int main()
 {
     int a; 
     int i;
-    int b;
+    int b=0;
     scanf("%d",&a);
     if("%d",&a);
-    b=1;
+
     if(a<=1){
-        b=0;
+        printf("Not Prime");
     }
-    else
-    {
-        for(1=2; c<=a/2; i++)
+    
+        for(i=2; i<=a/2; i++)
         {
             if(a%2==0)
             {
                 b=0;
                 break;
             }
-        }
+        
     }
     if(b)
     {
