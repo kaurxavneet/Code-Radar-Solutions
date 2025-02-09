@@ -7,14 +7,18 @@ int main()
     switch(c){
 case('+'):
         printf("%d",a+b);
+        breaK;
     case('-'):
         printf("%d",a-b);
+breaK;
     case('*'):
         printf("%d",a*b);
+        breaK;
     case('/'):
     if(b!=0)
     {printf("%d",a/b);}
     else{printf("error");}
+    breaK;
    default:
    printf("error");
     }
