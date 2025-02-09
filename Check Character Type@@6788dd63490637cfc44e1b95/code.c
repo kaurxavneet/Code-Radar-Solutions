@@ -6,12 +6,13 @@ int main() {
     c = tolower(c);
     if (c == 'a' || c== 'e' || c == 'i' || c == 'o' || c == 'u') {
         printf("Vowel");
-        else{printf("Consonant");}
     }
     else if (c >= '0' && c <= '9') {
         printf("Digit");
     }
-    
+    else if ((c >= 'a' && c <= 'z')) {
+        printf("Consonant");
+    }
     else {
         printf("Special Character");
     }
