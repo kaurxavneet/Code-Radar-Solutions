@@ -6,7 +6,10 @@ int main()
     scanf("%d %d",&a,&b);
     if(a>b || a==b)
     {
-        printf("Yes")
+        printf("Yes");
     }
-    
+    else
+    {
+        printf("No");
+    }
 }
