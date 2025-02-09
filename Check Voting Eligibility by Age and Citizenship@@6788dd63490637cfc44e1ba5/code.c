@@ -20,4 +20,8 @@ int main()
     {
         printf("Not Eligible");
     }
+     if(a<18 && b==1)
+    {
+        printf("Not Eligible");
+    }
 }
