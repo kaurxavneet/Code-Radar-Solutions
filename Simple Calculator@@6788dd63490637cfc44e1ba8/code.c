@@ -6,9 +6,14 @@ int main()
     char c;
     int d;
     scanf("%d%d%c",&a,&b,&c);
-    case '+':
+    switch(c)
+    {
+        case '+':
     {
         d=a+b;
         printf("%d",d);
     }
+
+    }
+    
 }
