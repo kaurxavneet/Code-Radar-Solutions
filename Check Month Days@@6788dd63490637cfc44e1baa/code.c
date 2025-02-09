@@ -31,8 +31,7 @@ int main()
         break;
         case2:
         printf("28");
-        defaul:
-        printf("Invalid month");
+       
 
     }
 }
