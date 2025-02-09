@@ -28,6 +28,7 @@ int main()
     }
        case '/':
     {
+        if(b!=0)
         d=a/b;
         printf("%d",d);
         break;
