@@ -9,25 +9,23 @@ int main()
     switch(c)
     {
         case '+':
-    {
         d=a+b;
         printf("%d",d);
         break;
-    }
        case '-':
-    {
+    
         d=a-b;
         printf("%d",d);
         break;
-    }
+    
        case '*':
-    {
+    
         d=a*b;
         printf("%d",d);
         break;
-    }
+    
        case '/':
-    {
+    
         if(b!=0)
         d=a/b;
         printf("%d",d);
@@ -36,5 +34,4 @@ int main()
      
 
     }
-    
-}
+
