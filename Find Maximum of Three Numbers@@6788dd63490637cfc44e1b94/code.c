@@ -13,8 +13,6 @@ int main()
     {
         printf("%d",b);
     }
-    if(c>b && c>a)
-    {
-        printf("%d",c);
-    }
+    else{printf("%d",c)}
+    return 0;
 }
