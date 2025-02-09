@@ -13,7 +13,7 @@ int main()
     }
     else if(isalpha(a))
     {
-        printf("Constant");
+        printf("Consonant");
     }
     else
     {
