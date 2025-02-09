@@ -9,7 +9,7 @@ int main()
     {
         printf("%d",a);
     }
-    if(b>c && b>a)
+    if(b>a && b>c)
     {
         printf("%d",b);
     }
