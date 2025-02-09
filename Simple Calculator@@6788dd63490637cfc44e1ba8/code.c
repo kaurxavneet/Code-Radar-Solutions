@@ -22,4 +22,5 @@ breaK;
    default:
    printf("error");
     }
+    return 0;
 }
