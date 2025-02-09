@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    inta ;
+    int a ;
     int b;
     char c;
     int d;
