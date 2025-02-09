@@ -6,7 +6,7 @@ int main()
     char c;
     int d;
     scanf("%d%d%c",&a,&b,&c);
-    if(c=="+")
+    if(c=='+')
     {
         d=a+b;
         printf("%d",d);
