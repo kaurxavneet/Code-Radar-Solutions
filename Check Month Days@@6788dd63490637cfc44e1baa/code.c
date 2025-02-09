@@ -31,6 +31,7 @@ int main()
         break;
         case2:
         printf("28");
+        break;
        
 
     }
