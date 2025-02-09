@@ -12,21 +12,25 @@ int main()
     {
         d=a+b;
         printf("%d",d);
+        break;
     }
-       case '=':
+       case '-':
     {
         d=a-b;
         printf("%d",d);
+        break;
     }
        case '*':
     {
         d=a*b;
         printf("%d",d);
+        break;
     }
        case '/':
     {
         d=a/b;
         printf("%d",d);
+        break;
     }
      
 
