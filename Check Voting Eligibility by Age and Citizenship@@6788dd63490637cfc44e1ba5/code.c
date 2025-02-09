@@ -18,7 +18,7 @@ int main()
     }
      if(a>=18 && b==0)
     {
-        printf("Not Eligible");
+        printf("Eligible");
     }
      if(a<18 && b==1)
     {
