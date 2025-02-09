@@ -21,9 +21,9 @@ int main()
         d=a*b;
         printf("%d",d);
     }
-    else if(c=='/')
+    else if(c=='/' && b!=0)
     {
-        if(b!=0)
+        
         d=a/b;
         printf("%d",d);
     }
