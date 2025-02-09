@@ -1,30 +1,21 @@
 #include<stdio.h>
 int main()
 {
-    int a ;
-    int b;
+    int a,b;
     char c;
-    int d;
     scanf("%d%d%c",&a,&b,&c);
-    if(c=='+')
-    {
-        d=a+b;
-        printf("%d",d);
-    }
-    else if(c=='-')
-    {
-        d=a-b;
-        printf("%d",d);
-    }
-    else if(c=='*')
-    {
-        d=a*b;
-        printf("%d",d);
-    }
-    else if(c=='/' && b!=0)
-    {
-        
-        d=a/b;
-        printf("%d",d);
+    switch(c){
+case('+'):
+        printf("%d",a+b);
+    case('-'):
+        printf("%d",a-b);
+    case('*'):
+        printf("%d",a*b);
+    case('/'):
+    if(b!=0)
+    {printf("%d",a/b);}
+    else{printf("error");}
+   default:
+   printf("error");
     }
 }
