@@ -5,8 +5,12 @@ int main()
     int b;
     int c;
     scanf("%d %d %d",&a,&b,&c);
-    if(a==b && b==c && c==a)
+    if(a==b && b==c )
     {
         printf("Equilateral");
+    }
+    if(a!=b && b!=c)
+    {
+        printf("Isosceles");
     }
 }
