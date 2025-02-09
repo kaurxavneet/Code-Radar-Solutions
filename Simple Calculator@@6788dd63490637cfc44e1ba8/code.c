@@ -11,17 +11,17 @@ int main()
         d=a+b;
         printf("%d",d);
     }
-    if(c=='-')
+    else if(c=='-')
     {
         d=a-b;
         printf("%d",d);
     }
-    if(c=='*')
+    else if(c=='*')
     {
         d=a*b;
         printf("%d",d);
     }
-    if(c=='/')
+    else if(c=='/')
     {
         if(b!=0)
         d=a/b;
